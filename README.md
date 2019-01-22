@@ -4,7 +4,7 @@ Sample usage:
 
 *$DB is the PDO Connection.
 
-	$QB = new QueryBuilder($DB);
+	$QB = new QueryBuilder($DB); //Instantiate the Query Builder and pass the connection to the constructor.
 
 	$select = array(
 		'`customers`.`id`',
