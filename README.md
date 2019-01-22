@@ -1,5 +1,4 @@
 # Query-Builder
-Easier querying in PHP to MySQL.
 
 Sample usage:
 
