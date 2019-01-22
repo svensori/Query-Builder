@@ -2,6 +2,8 @@
 	class Crypto{
 		private static $method = 'AES-256-CBC'; 
 		private static $crypt_strong;
+		
+		//you can modify this script to create an automatically changing keys.
 		private static $skey = '?81!-`g}3||vsHm';
 		private static $siv = 'A5A6BCE1EDEA65C99F6D82738E752';
 		
