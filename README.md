@@ -27,6 +27,7 @@ Sample usage:
 	$QB->where($where); 
 	
 	//Encrypt id column on fetch.
+	//*Required to include Crypto class
 	$QB->encryptColumn('id'); 
 	
 	//Get all rows.
